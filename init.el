@@ -183,6 +183,14 @@
 
 (add-to-list 'auto-mode-alist '("\\.java\\'" . meghanada-mode))
 
+(setq org-agenda-files (list "~/org/trabajo.org"
+                             "~/org/universidad.org"
+                             "~/org/casa.org"))
+
+;; Set indent to 4 spaces
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
 
 (provide 'init)
 
