@@ -181,7 +181,11 @@
             (setq company-transformers '(company-sort-by-backend-importance))
             (add-hook 'before-save-hook 'delete-trailing-whitespace)))
 
-(add-to-list 'auto-mode-alist '("\\.java\\'" . meghanada-mode))
+(add-to-list 'auto-mode-alist '("\\.java\\'" . jdee-mode))
+(add-to-list 'auto-mode-alist '("\\.ens\\'" . asm-mode))
+(add-to-list 'auto-mode-alist '("\\.asm\\'" . asm-mode))
+(add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
+
 
 (setq org-agenda-files (list "~/org/trabajo.org"
                              "~/org/universidad.org"
