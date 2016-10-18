@@ -166,21 +166,14 @@
 ;; My config
 (global-linum-mode t)
 
-;; Java Mode
-(load-file "~/.emacs.d/lisp/meghanada-mode.el")
-(load-file "~/.emacs.d/lisp/company-meghanada.el")
-(load-file "~/.emacs.d/lisp/flycheck-meghanada.el")
 
-(require 'meghanada-mode)
-(require 'company-meghanada)
-(require 'flycheck-meghanada)
+;; Yasnippet
+(add-to-list 'load-path
+             "~/path-to-yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
 
-(add-hook 'meghanada-mode-hook
-          (lambda ()
-            (add-to-list 'company-backends '(company-meghanada :with company-dabbrev-code))
-            (setq company-transformers '(company-sort-by-backend-importance))
-            (add-hook 'before-save-hook 'delete-trailing-whitespace)))
-
+;; Modes
 (add-to-list 'auto-mode-alist '("\\.java\\'" . jdee-mode))
 (add-to-list 'auto-mode-alist '("\\.ens\\'" . asm-mode))
 (add-to-list 'auto-mode-alist '("\\.asm\\'" . asm-mode))
