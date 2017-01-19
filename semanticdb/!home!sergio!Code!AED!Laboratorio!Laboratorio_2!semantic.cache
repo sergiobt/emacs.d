@@ -1,0 +1,18 @@
+;; Object Laboratorio_2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Laboratorio_2/"
+  :tables
+  (list
+    (semanticdb-table "MultiSetList.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("aed.multisets" package nil nil [1 23])
+            ("aed.positionlist.*" include nil nil [25 51]))          
+      :file "MultiSetList.java"
+      :pointmax 5766
+      :fsize 5765
+      :lastmodtime '(22523 45288 603863 50000)
+      :unmatched-syntax '((BRACE_BLOCK 341 . 5765) (GT 339 . 340) (IDENTIFIER 332 . 339) (LT 331 . 332) (IDENTIFIER 323 . 331) (IMPLEMENTS 312 . 322) (GT 310 . 311) (IDENTIFIER 303 . 310) (PUBLIC 277 . 283) (LT 302 . 303))))
+  :file "!home!sergio!Code!AED!Laboratorio!Laboratorio_2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

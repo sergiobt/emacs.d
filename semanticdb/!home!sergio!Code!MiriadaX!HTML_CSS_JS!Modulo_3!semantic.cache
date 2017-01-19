@@ -1,0 +1,16 @@
+;; Object Modulo_3/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Modulo_3/"
+  :tables
+  (list
+    (semanticdb-table "M3_Obligatoria.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "M3_Obligatoria.html"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(22551 51915 238889 387000)
+      :unmatched-syntax nil))
+  :file "!home!sergio!Code!MiriadaX!HTML_CSS_JS!Modulo_3!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

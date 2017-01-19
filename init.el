@@ -166,12 +166,35 @@
 ;; My config
 (global-linum-mode t)
 
+;; Powerline
+(require 'powerline)
+(powerline-center-evil-theme)
 
 ;; Yasnippet
 (add-to-list 'load-path
              "~/path-to-yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
+
+;;Meghanada
+(require 'meghanada)
+(add-hook 'java-mode-hook
+          (lambda ()
+            ;;Meghanada-mode-on
+            (meghanada-mode t)
+            (add-hook 'before-save-hook 'delete-trailing-whitespace)))
+
+;; Helm
+;; If async is installed
+(add-to-list 'load-path "~/Emacs_Plugins/emacs-async")
+
+(add-to-list 'load-path "~/Emacs_Plugins/helm")
+(require 'helm-config)
+(helm-mode 1)
+
+;; Evil-mode
+(require 'evil)
+(evil-mode 1)
 
 ;; Modes
 (add-to-list 'auto-mode-alist '("\\.java\\'" . jdee-mode))
@@ -180,9 +203,8 @@
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 
 
-(setq org-agenda-files (list "~/org/trabajo.org"
-                             "~/org/universidad.org"
-                             "~/org/casa.org"))
+(setq org-agenda-files (list "~/org/universidad.org"
+                             "~/org/personal.org"))
 
 ;; Set indent to 4 spaces
 (setq-default indent-tabs-mode nil)

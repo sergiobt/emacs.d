@@ -1,0 +1,21 @@
+;; Object Modulo_2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Modulo_2/"
+  :tables
+  (list
+    (semanticdb-table "T5_Obligatoria.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("Elon Musk" section nil nil [122 155])
+            ("Elon Musk, el emprendedor" section (:members 
+              ( ("Elon Musk, el emprendedor" section (:members 
+                  ( ("V&iacute;deos" section (:members 
+                      ( ("Contrucci&oacute;n del Tesla Model S" section nil nil [5378 6108]))                      ) nil [5351 6108]))                  ) nil [323 6108]))              ) nil [155 6108]))          
+      :file "T5_Obligatoria.html"
+      :pointmax 6108
+      :fsize 6107
+      :lastmodtime '(22550 33105 411401 418000)
+      :unmatched-syntax nil))
+  :file "!home!sergio!Code!MiriadaX!HTML_CSS_JS!Modulo_2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

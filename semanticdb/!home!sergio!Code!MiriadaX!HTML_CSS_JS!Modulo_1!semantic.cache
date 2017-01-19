@@ -1,0 +1,22 @@
+;; Object Modulo_1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Modulo_1/"
+  :tables
+  (list
+    (semanticdb-table "T6_Obligatoria.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("Secciones y l&iacute;neas generales de un documento HTML5" section nil nil [56 280])
+            ("Secciones y l&iacute;neas generales de un documento HTML5" section (:members 
+              ( ("Secciones y l&iacute;neas generales de un documento HTML5" section (:members 
+                  ( ("Problemas resueltos por HTML5" section nil nil [708 2748])
+                    ("El algoritmo de perfilado de HTML5" section (:members 
+                      ( ("Definiendo secciones en HTML5" section nil nil [2794 3596]))                      ) nil [2748 3596]))                  ) nil [316 3596]))              ) nil [280 3596]))          
+      :file "T6_Obligatoria.html"
+      :pointmax 3596
+      :fsize 3596
+      :lastmodtime '(22522 30031 704158 208000)
+      :unmatched-syntax nil))
+  :file "!home!sergio!Code!MiriadaX!HTML_CSS_JS!Modulo_1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
