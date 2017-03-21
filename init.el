@@ -211,6 +211,14 @@
 (setq-default tab-width 4)
 (setq indent-line-function 'insert-tab)
 
+;;ORG Bullet Icons.
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+(setq org-todo-keywords '((sequence "☛ TODO(t)" "|" "<img draggable="false" class="emoji" alt="✔" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/2714.svg"> DONE(d)")
+(sequence "⚑ WAITING(w)" "|")
+(sequence "|" "✘ CANCELED(c)")))
+
+
 (provide 'init)
 
 ;; Local Variables:
